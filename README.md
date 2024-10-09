@@ -20,13 +20,13 @@ This README provides step-by-step instructions for setting up a Cowrie SSH honey
 2. **Network Configuration**:
    - Ensure both VMs are on the same network (e.g., Host-Only or Internal Network).
 
-## Step 2: Installing Cowrie on the Victim Machine
+## Step 2: Installing the Honeypot on the Victim Machine
 
 This section outlines the steps to install Cowrie, an SSH honeypot, on the victim machine (Parrot OS).
 
 ### 2.1 Update the System
 
-Before installing Cowrie, ensure your system is up-to-date:
+Before installing HoneyPot, ensure your system is up-to-date:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -69,6 +69,7 @@ ssh -p 2222 root@<ip>
 ## Step 4: Observing logs and attacker's behavior
  - He has got access but to a **fake filesystem**.
  - This file system can be modified to look like an organizations default file system **(Ex: File System of a Banking companies)**
+ - More Information on this: https://github.com/cowrie/cowrie
  - We can observe each step the hacker takes inside our honeypot. This not only gave off his **IP address** but also can help us understand his **motive** through his actions on the system. 
 
 
