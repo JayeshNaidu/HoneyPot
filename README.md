@@ -15,7 +15,7 @@ This README provides step-by-step instructions for setting up a Cowrie SSH honey
 1. **Create Two VMs**:
    - Use your preferred virtualization software (e.g., VirtualBox, VMware).
    - Allocate sufficient resources (CPU, RAM) to both VMs.
-   - Install Kali Linux on the attacker VM and Parrot OS on the victim VM.
+   - Install Kali Linux as the attacker VM and Parrot OS as the victim VM.
 
 2. **Network Configuration**:
    - Ensure both VMs are on the same network (e.g., Host-Only or Internal Network).
