@@ -66,7 +66,7 @@ ssh -p 2222 root@<ip>
  - Enter any password you like, you will get access easily.
  - But wait, **it looks too easy?** doesnt matter.
 
-### Step 4: Observing logs and attacker's behavior
+## Step 4: Observing logs and attacker's behavior
  - He has got access but to a **fake filesystem**.
  - This file system can be modified to look like an organizations default file system **(Ex: File System of a Banking companies)**
  - We can observe each step the hacker takes inside our honeypot. This not only gave off his **IP address** but also can help us understand his **motive** through his actions on the system. 
